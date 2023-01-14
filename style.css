@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: white;
+}
+.container{
+    border: none;
+    padding: 40px 25px;
+    background-color: lightpink;
+    width: 800px;
+    height: 800px;
+    
+}
+
+.first{
+    border-right: 3px solid black;
+    
+}
+.second{
+    border-top: 3px solid black;
+    padding-top: 10px;
+    
+}
+
+dd{
+    line-height: 0.3rem;
+    color: navy;
+}
+.profile{
+   color: navy;
+   padding-top: 1.0rem;
+}
+.profile1{
+    font-size: 0.8rem;
+    line-height: 0.3r;
+    color: navy;
+}
+
+i{
+    color: navy;
+}
+
+.heading{
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top: 10px;
+    color: navy;
+}
+
+.small{
+    line-height: 0.8rem;
+    font-size: 0.8rem;
+}
+
+.rot{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.ui{
+    max-height: fit-content;
+    font-size: 0.8rem;
+    color: navy;
+}
+
+.tt{
+    margin-left: 2.5rem;
+} 
+.cc{
+    display: inline;
+}
+
+@media only screen and (max-width: 780px) {
+   
+   .container{
+    border: none;
+    /* width: 400px;
+    height: 500px; */
+    background-color: lightpink;
+}
+}
+
+@media( min-width:1200px) {
+    .container{
+        border: none;
+        /* width: 400px;
+        height: 500px; */
+        background-color: lightpink;
+}
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 100%;
+    }
+}
+
+
+
